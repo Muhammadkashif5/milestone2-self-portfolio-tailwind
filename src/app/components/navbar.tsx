@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [showmenu, setShowmenu] = useState(false);

@@ -40,6 +40,7 @@ const Project = ({ projects }: { projects: Project[] }) => {
               src={data.imageURL}
               alt="Project Data"
               className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+              // eslint-disable-next-line @next/next/no-img-element
             />
             <div className="absolute inset-0 bg-purple-800 bg-opacity-70"></div>
             <h3 className="absolute inset-0 flex items-center justify-center text-white text-xl bg-black bg-opacity-60 p-2 rounded-lg transition-opacity duration-500 hover:opacity-0">
